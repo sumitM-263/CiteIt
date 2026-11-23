@@ -82,12 +82,7 @@ Run the automated tests:
 npm test
 ```
 
-For an end-to-end check, run `npm run ingest`, then `npm start` and try:
-
-- `According to paper1_ai_autonomous_decision_making.pdf, which systems were compared?`
-- `What is Citation-Constrained Generation in paper2_genai_grounded_generation.pdf?`
-- `Compare the experimental results in paper1_ai_autonomous_decision_making.pdf and paper5_nlp_ner_sentiment_low_resource.pdf. Summarize each separately.`
-- `What is the capital of Iceland?` (should return `I don't know.` with no citations)
+For an end-to-end check, run `npm run ingest`, then `npm start` and try questions from the pdf and questions that are not in pdf.
 
 Verify filenames, pages, and passage text for every answer. A refusal on an
 answerable question may mean the relevant passage was not retrieved or the
