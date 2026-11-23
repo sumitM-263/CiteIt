@@ -42,7 +42,7 @@ against the printed passages.
    docker compose up -d
    ```
 
-4. Install dependencies and build the index:
+4. Add the pdfs/docs in docs folder, then install dependencies and build the index:
 
    ```powershell
    npm install
